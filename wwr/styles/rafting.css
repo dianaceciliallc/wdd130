@@ -16,6 +16,7 @@
 
 body {
     font-family: var(--body-font);
+    font-weight: 400;
     color: var(--dark);
     background-color: var(--ligth);
 }
@@ -28,7 +29,7 @@ h2 {
 h2 {
     padding: 12px;
     text-align: center;
-    color: var(--text-dark);
+    color: var(--dark);
     background-color: var(--accent-1);
 }
 
