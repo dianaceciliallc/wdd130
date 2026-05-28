@@ -40,17 +40,6 @@ article {
     padding: 8px;
 }
 
-h1 {
-    position: absolute;
-    top: 25px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: .7;
-    background-color: var(--primary-color);
-    color: var(--accent1-color);
-}
-
 article {
     top: 370px;
     height: auto;
@@ -84,6 +73,17 @@ footer img {
 
 .hero {
     position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: .9;
+    background-color: var(--background-color);
+    color: var(--secondary-color);
 }
 
 .hero img {
