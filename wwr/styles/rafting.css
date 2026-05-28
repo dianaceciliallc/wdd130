@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #000000;
-    --secondary-color: #F79824;
-    --accent1-color: #007BFF;
-    --background-color: #FFFFFF;
+    --text-dark: #051923;
+    --accent-1: #24C2B3;
+    --accent-2: #FF9F29;
+    --bg-white: #F4F9F9;
 
     --heading-font: 'Montserrat', sans-serif;
     --body-font: 'Inter', sans-serif;
@@ -16,7 +16,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--primary-color);
+    color: var(--text-dark);
 }
 
 header,
@@ -29,7 +29,6 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--accent1-color);
 }
 
 nav,
@@ -41,10 +40,10 @@ article {
 }
 
 h2 {
-    background-color: var(--accent1-color);
     padding: 12px;
     text-align: center;
-    color: var(--background-color);
+    color: var(--text-dark);
+    background-color: var(--accent-1);
 }
 
 header {
@@ -82,8 +81,8 @@ footer img {
     padding: 16px;
     text-align: center;
     opacity: .9;
-    background-color: var(--background-color);
-    color: var(--secondary-color);
+    color: var(--text-dark);
+    background-color: var(--accent-2);
 }
 
 .hero img {
@@ -93,13 +92,14 @@ footer img {
 }
 
 .hero article {
-    top: 310px;
+    top: 300px;
     height: auto;
     position: absolute;
     opacity: .8;
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
+    color: var(--text-dark);
+    background-color: var(--bg-white);
     font-family: var(--body-font);
+    padding: .5rem;
 }
 
 .hero article img {
@@ -137,6 +137,12 @@ footer img {
     width: 100%;
 }
 
+.adventure-layout figcaption {
+    margin-top: .5rem;
+    font-size: 18px;
+    color: var(--text-dark);
+}
+
 .navigation {
     display: flex;
     list-style: none;
@@ -154,5 +160,5 @@ footer img {
 }
 
 .navigation li a:hover {
-    color: var(--secondary-color);
+    color: var(--accent-2);
 }
