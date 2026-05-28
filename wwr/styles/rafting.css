@@ -40,16 +40,6 @@ article {
     padding: 8px;
 }
 
-article {
-    top: 370px;
-    height: auto;
-    position: absolute;
-    opacity: .8;
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-    font-family: var(--body-font);
-}
-
 h2 {
     background-color: var(--accent1-color);
     padding: 12px;
@@ -62,15 +52,6 @@ footer img {
 }
 
 /* Class Selectors */
-.hero article img {
-    width: 125px;
-    float: right;
-}
-
-.socialmedia a {
-    text-decoration: none;
-}
-
 .hero {
     position: relative;
 }
@@ -90,4 +71,23 @@ footer img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero article {
+    top: 370px;
+    height: auto;
+    position: absolute;
+    opacity: .8;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-family: var(--body-font);
+}
+
+.hero article img {
+    width: 125px;
+    float: right;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
