@@ -47,8 +47,27 @@ h2 {
     color: var(--background-color);
 }
 
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    justify-items: stretch;
+    gap: 6rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+footer nav a {
+    margin-right: 1rem;
+}
+
 footer img {
-    width: 50px;
+    width: 40px;
 }
 
 /* Class Selectors */
@@ -90,4 +109,50 @@ footer img {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.history-layout,
+.adventure-layout {
+    display: grid;
+}
+
+.history-layout {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.adventure-layout {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    text-align: center;
+}
+
+.history-layout h2,
+.adventure-layout h2 {
+    grid-column: 1/-1;
+}
+
+.history-layout img,
+.adventure-layout img {
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: var(--accent1-color);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.navigation li a:hover {
+    color: var(--secondary-color);
 }
