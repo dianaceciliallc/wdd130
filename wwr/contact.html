@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Whitewater Adventures Rafting</title>
+    <meta name="description"
+      content="Contact us to book your white water rafting trip, ask about our packages, or get directions to our river headquarters. Your adventure starts here!">
+    <meta name="author" content="Diana C. Llerena">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-wwr-blue.jpg" alt="Enterprise Logo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="contact__title">White Water Rafting Company</h1>
+        <div class="contact__information">
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>+1 999 999 9999</p>
+            <p>info@whitewater.com</p>
+        </div>
+        <section class="contact__wrapper">
+            <div class="map__wrapper">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3904.1485642517866!2d-77.03714242426861!3d-11.929555688294711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d1aa41e8c755%3A0x6335132512a9e338!2sPlaza%20de%20Armas%20de%20Carabayllo!5e0!3m2!1ses-419!2spe!4v1718064000000!5m2!1ses-419!2spe"
+                  width="400" height="450" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade" class="embedded-map">
+                </iframe>
+            </div>
+            <form class="contact__form">
+                <div class="input__wrapper aligned">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe">
+                </div>
+                <div class="input__wrapper aligned">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="john_doe@email.com">
+                </div>
+                <div class="group-opt__wrapper">
+                    <span>Message Purpose</span>
+                    <fieldset>
+                        <div class="opt-aligned">
+                            <input type="radio" id="general" name="purpose" value="general">
+                            <label for="general">General Inquiry</label>
+                        </div>
+                        <div class="opt-aligned">
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div class="opt-aligned">
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </fieldset>
+                </div>
+                <label for="message">Message</label>
+                <textarea type="textarea" id="message" name="message"
+                  placeholder="Type here"></textarea>
+                <div class="group-opt__wrapper">
+                    <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
+                    <label for="subscribe">Please Subscribe me to the monthyly
+                        newsletter</label>
+                </div>
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+        <section class="profile-layout">
+            <h2>We Are Here to Serve You</h2>
+            <figure>
+                <img src="images/employee-1.jpg" alt="Employee Profile.">
+                <figcaption>Camila Mendoza</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee-2.jpg" alt="Employee Profile.">
+                <figcaption>Mateo Reynolds</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee-3.jpg" alt="Employee Profile.">
+                <figcaption>Alejandro Vargas</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 WHITEWATER RAFTING - Diana, Llerena</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <img src="images/linkedin.svg" alt="Linkedin Icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.svg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

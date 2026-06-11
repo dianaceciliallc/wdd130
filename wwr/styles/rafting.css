@@ -174,3 +174,99 @@ footer img {
 .socialmedia a {
     text-decoration: none;
 }
+
+/* Contact Us page Styles */
+
+.contact__title,
+.contact__information {
+    text-align: center;
+}
+
+.contact__information p {
+    margin: 0;
+}
+
+.contact__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: auto;
+}
+
+.map__wrapper,
+.contact__form {
+    width: 50%;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1.2rem;
+    height: auto;
+}
+
+.aligned {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input__wrapper input {
+    width: 80%;
+    height: 40px;
+    padding: .8rem;
+}
+
+.contact__form textarea {
+    height: 70px;
+    padding: .8rem;
+}
+
+.group-opt__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.group-opt__wrapper fieldset {
+    border: none;
+}
+
+.opt-aligned input {
+    margin: .5rem .5rem 0;
+}
+
+.contact__form button {
+    padding: 1rem;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    background-color: var(--accent-1);
+    color: var(--dark);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.profile-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid var(--dark);
+    gap: 1rem;
+    text-align: center;
+}
+
+.profile-layout h2 {
+    grid-column: 1/4;
+    background-color: var(--accent-2);
+}
+
+.profile-layout img {
+    width: 80%;
+    height: 150px;
+    object-fit: fill;
+    margin-bottom: .5rem;
+}
